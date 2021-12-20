@@ -2,6 +2,11 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <style>
+            body{
+                background-color: blue;
+            }
+        </style>
     </head>
     <body>
         <!--맨 처음 인트로-->
@@ -28,10 +33,5 @@
                 <li id=#deathRateByVaccine>백신과 사망률의 관계</li>
             </ul>
         </nav>
-        <h1>데이터 가공 과정</h1>
-        <pre>
-        <img src="pcr캡처.png">
-         맨처음 질병관리청에서 받은 파일 형식을 엑셀파일시트였으며, 불필요한 헤더가 있어서 필요한 셀들만 복사해 vi로 txt 파일 만들어 가공하였습니다.
-        </pre>
     </body>
 </html>
